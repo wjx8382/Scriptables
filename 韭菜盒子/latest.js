@@ -10,7 +10,6 @@ class Im3xWidget {
    */
   constructor(arg) {
     this.arg = arg
-    this.fileName = module.filename.split('Documents/')[1]
     this.widgetSize = config.widgetFamily
   }
   /**
